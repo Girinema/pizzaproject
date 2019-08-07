@@ -9,3 +9,5 @@ this application is for ordrig pizza online .you just have to enter your choices
 * css
 * javascript
 bootstrap
+## contact details
+email:gracegirinema@gmail.com
