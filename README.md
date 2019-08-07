@@ -11,3 +11,5 @@ this application is for ordrig pizza online .you just have to enter your choices
 bootstrap
 ## contact details
 email:gracegirinema@gmail.com
+### License
+Copyright (c) {2019} 
