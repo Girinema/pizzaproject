@@ -8,7 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="js/scripts.js"></script>
     <title>Pizzalicious</title>
 </head>
@@ -33,7 +33,7 @@
       <h5 class="card-title">PiZza Bank</h5>
       <p class="card-text">Feel the taste of life</p>
       <div class="row values">
-        <div class=" card prices col-sm-4">
+        <div class=" prices col-sm-12">
           <button type="button" class="btn btn-light deliva" data-toggle="collapse" data-target="#size"> The Prices For Each Pizza Size...</button>
           <div id="size" class="collapse">
             Smaller pizza equal to 1000 <br>
@@ -41,7 +41,7 @@
             Larger pizza equal to 3000 <br>
           </div>
         </div>
-        <div class=" card prices col-sm-4">
+        <div class=" prices col-sm-12">
           <button type="button" class="btn btn-light deliva" data-toggle="collapse" data-target="#cru">The Cost For The Crust...</button>
           <div id="cru" class="collapse">
             Crispy equal to 500 <br>
@@ -49,7 +49,7 @@
             Gliten-Free equal to 1500 <br>
           </div>
         </div>
-        <div class=" card prices col-sm-4">
+        <div class=" prices col-sm-12">
           <button type="button" class="btn btn-light deliva" data-toggle="collapse" data-target="#toppy">Pizza Topping Value...</button>
           <div id="toppy" class="collapse">
             {Pepperoni, Mushrooms,Green Peppers and Onion} equal to 1500 <br>
@@ -60,12 +60,12 @@
       </div>
     </div>
   </div>
-  <div class="alert order">
+  <div class="alert">
     <h4 class="alert-heading">Order your pizza!</h4>
     <hr>
     <form>
       <div class="form-row">
-        <div class="form-group card col-sm-6">
+        <div class="form-group col-sm-3">
           <label for="inputState">Choose Size:</label>
           <select id="size" class="form-control">
             <option selected>Choose...</option>
@@ -74,11 +74,11 @@
             <option value="large">Large</option>
           </select>
         </div>
-        <div class="form-group card col-sm-6">
+        <div class="form-group col-sm-3">
           <label for="pwd">Choose Quantity:</label>
           <input type="number" class="form-control" min="1" id="qnty" name="Quantity">
         </div>
-        <fieldset class="form-group card col-sm-6">
+        <fieldset class="form-group col-sm-3">
           <div class="row">
             <legend class="col-form-label col-sm-2">Choose Crust:</legend>
               <div class="col-sm-6">
@@ -97,7 +97,7 @@
               </div>
           </div>
         </fieldset>
-        <div class="form-group card col-sm-6">
+        <div class="form-group col-sm-3">
           <div class="row">
             <legend class="col-form-label col-sm-2">Choose Topping:</legend>
             <div class="col-sm-6">
@@ -133,7 +133,7 @@
   </div>
   <footer class="page-footer font-small unique-color-dark pt-4">
     <div class="footer-copyright text-center py-3">
-      © 2018 Copyright: <strong>Pizzalicious.com</strong>
+      © 2019 Copyright: <strong>PiZza Bank</strong>
     </div>
   </footer>
 </body>
