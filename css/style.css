@@ -1,1 +1,7 @@
 .alert{background-color:bisque;}
+.values{ position: absolute;
+    left: 80px;
+    bottom: 150px;}
+.card-title{
+text-align: center;
+}
